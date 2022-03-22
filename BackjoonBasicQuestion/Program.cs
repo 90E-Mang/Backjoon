@@ -10,6 +10,7 @@ namespace BackjoonBasicQuestion
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hello world !");
         }
     }
 }
