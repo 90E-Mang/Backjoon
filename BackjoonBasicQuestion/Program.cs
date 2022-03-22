@@ -10,7 +10,8 @@ namespace BackjoonBasicQuestion
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello world !");
+            string[] a = Console.ReadLine().Split();
+            Console.WriteLine(int.Parse(a[0]) * int.Parse(a[1]));
         }
     }
 }
